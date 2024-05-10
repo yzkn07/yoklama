@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoklama</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <form action="" id="studentForm">
+        <input type="text" name="first_name" id="firstName" placeholder="isim" required>
+        <input type="text" name="last_name" id="lastName" placeholder="soyisim" required>
+        <input type="number" name="classroom_no" id="classroomNo" placeholder="sınıf no" required>
+        <button type="submit">gönder</button>
+    </form>
+
+    <ul class="studentsInfosList">
+
+    </ul>
+
+<!-- <form action="" id="yoklama">
+    <label for="var">
+        <input type="radio" name="yoklama" id="var">
+        var
+    </label>
+    <label for="yok">
+        <input type="radio" name="yoklama" id="yok">
+        yok
+    </label>
+</form> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script type="module" src="./app.js"></script>
+    
+</body>
+</html>
